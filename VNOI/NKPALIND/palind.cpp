@@ -25,7 +25,7 @@ int main(){
             else f[i][j] = max(f[i][j-1], f[i+1][j]);
         }
     
-    int t[2000] = {0};
+    int t[2000] = {0}; 
     int l = 0; int r = n-1;int len = f[0][n-1];
 
     while(l <= r && len > 0){
